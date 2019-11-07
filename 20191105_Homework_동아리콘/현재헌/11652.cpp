@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<algorithm>
-long long int storage[1000006];
+int storage[1000006];
 
 int main() {
 	int n;
@@ -24,4 +24,6 @@ int main() {
 	}
 	
 	printf("%lld", hd);
+
+	return 0;
 }
